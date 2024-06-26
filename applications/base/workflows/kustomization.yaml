@@ -7,9 +7,9 @@ resources:
 #  - secret/github-access-argo-event.yaml
 #  - secret/github-access-argo-workflow.yaml
   - argo-clusterrole.yaml 
-  - secret/source-key-argo.yaml
-  - secret/deploy-key-argo.yaml
-  - secret/deploy-key-argocd.yaml
+#  - secret/source-key-argo.yaml
+#  - secret/deploy-key-argo.yaml
+#  - secret/deploy-key-argocd.yaml
   - event-source.yaml
   - event-source-svc.yaml
   - event-sensor.yaml
