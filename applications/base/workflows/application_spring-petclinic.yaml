@@ -12,7 +12,7 @@ spec:
       selfHeal: true
   project: default
   source:
-    repoURL: https://github.com/sasund/spring-petclinic.git
+    repoURL: git@github.com:sasund/spring-petclinic.git
     targetRevision: main
     path: .
   destination:
