@@ -19,6 +19,12 @@ metadata:
   name: argo-events-sa
   namespace: argo-events
 ---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: argo
+  namespace: argo
+---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
