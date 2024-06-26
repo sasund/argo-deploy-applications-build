@@ -4,8 +4,8 @@ kind: Kustomization
 namespace: build
 
 resources:
-  - secret/github-access-argo-event.yaml
-  - secret/github-access-argo-workflow.yaml
+#  - secret/github-access-argo-event.yaml
+#  - secret/github-access-argo-workflow.yaml
   - argo-clusterrole.yaml 
   - secret/source-key-argo.yaml
   - secret/deploy-key-argo.yaml
