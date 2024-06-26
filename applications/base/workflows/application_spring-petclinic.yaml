@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: spring-boot
+  name: spring-petclinic-buiild
   namespace: argocd
   finalizers:
     - resources-finalizer.argocd.argoproj.io
@@ -17,4 +17,4 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
-    namespace: default
+    namespace: build

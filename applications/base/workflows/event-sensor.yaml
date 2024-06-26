@@ -30,9 +30,9 @@ spec:
                 entrypoint: argo-ci
 #                onExit: exit-handler
                 volumes:
-                  - name: gcp-creds
-                    secret:
-                      secretName: argo-gcp
+#                  - name: gcp-creds
+#                    secret:
+#                      secretName: argo-gcp
                   - name: ssh-deploy-creds
                     secret:
                       secretName: deploy-key
