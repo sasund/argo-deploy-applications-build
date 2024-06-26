@@ -9,7 +9,7 @@ spec:
   github:
     source_repo:
       # owner of the repo
-      owner: seongpyoHong
+      owner: sasund
       # repository name
       repository: argo-ci-cd
       # Github will send events to following port and endpoint
